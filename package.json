@@ -1,0 +1,17 @@
+{
+  "name": "to-cast-renderer",
+  "version": "0.1.0",
+  "description": "Render structured TO Cast Markdown into a 2242px-wide HTML preview and one high-quality JPG long image.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "preview": "node src/render-preview.mjs",
+    "preview:sample": "node src/render-preview.mjs templates/to-cast-template.md"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
